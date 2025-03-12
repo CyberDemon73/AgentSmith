@@ -1,0 +1,72 @@
+{
+  "browsers": [
+    {
+      "name": "Chrome",
+      "versions": ["98.0.4758.102", "97.0.4692.99", "96.0.4664.110"],
+      "template": "Mozilla/{mozilla_version} ({os_string}) AppleWebKit/{webkit_version} (KHTML, like Gecko) Chrome/{browser_version} Safari/{webkit_version}",
+      "os": [
+        {
+          "name": "Windows",
+          "versions": ["10.0", "6.3", "6.1"]
+        },
+        {
+          "name": "Mac OS",
+          "versions": ["10_15_7", "11_2_3", "12_1"]
+        },
+        {
+          "name": "Linux",
+          "versions": ["x86_64", "i686"]
+        }
+      ]
+    },
+    {
+      "name": "Firefox",
+      "versions": ["96.0", "95.0", "94.0"],
+      "template": "Mozilla/{mozilla_version} ({os_string}; rv:{browser_version}) Gecko/20100101 Firefox/{browser_version}",
+      "os": [
+        {
+          "name": "Windows",
+          "versions": ["10.0", "6.3", "6.1"]
+        },
+        {
+          "name": "Mac OS",
+          "versions": ["10_15_7", "11_2_3", "12_1"]
+        },
+        {
+          "name": "Linux",
+          "versions": ["x86_64", "i686"]
+        }
+      ]
+    },
+    {
+      "name": "Safari",
+      "versions": ["15.3", "14.1.2", "13.1.2"],
+      "template": "Mozilla/{mozilla_version} ({os_string}) AppleWebKit/{webkit_version} (KHTML, like Gecko) Version/{browser_version} Safari/{webkit_version}",
+      "os": [
+        {
+          "name": "Mac OS",
+          "versions": ["10_15_7", "11_2_3", "12_1"]
+        }
+      ]
+    },
+    {
+      "name": "Edge",
+      "versions": ["98.0.1108.43", "97.0.1072.69", "96.0.1054.29"],
+      "template": "Mozilla/{mozilla_version} ({os_string}) AppleWebKit/{webkit_version} (KHTML, like Gecko) Edg/{browser_version}",
+      "os": [
+        {
+          "name": "Windows",
+          "versions": ["10.0", "6.3", "6.1"]
+        },
+        {
+          "name": "Mac OS",
+          "versions": ["10_15_7", "11_2_3", "12_1"]
+        }
+      ]
+    }
+  ],
+  "defaults": {
+    "mozilla_version": "5.0",
+    "webkit_version": "537.36"
+  }
+}
